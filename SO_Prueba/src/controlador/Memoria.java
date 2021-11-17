@@ -53,10 +53,9 @@ public class Memoria extends JFrame {
 	 * Create the frame.
 	 */
 	public Memoria() {
-		this.setLocationRelativeTo(null);
-		this.setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1480, 851);
+		setSize(1480, 851);
+		setLocationRelativeTo(null);
 		contentPane = new JPanel();
 		contentPane.setBackground(Color.WHITE);
 		contentPane.setBorder(new EmptyBorder(2, 2, 2, 0));
